@@ -6,7 +6,8 @@ export default function AnalysisView({
   interactions,
 }: {
   rxname: string;
-  rxuid: string;
+  rxcui: string;
+  interactions: any;
 }) {
   return (
     <div className={styles.container}>
