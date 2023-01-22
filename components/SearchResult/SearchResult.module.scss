@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-height: 5rem;
+
+  background-color: whitesmoke;
+
+  border-radius: 0.5rem;
+  border: none;
+
+  text-align: center;
+  word-wrap: break-word;
+
+  &:hover {
+    cursor: pointer;
+
+    background-color: lightgray;
+    .resultTitle {
+      color: darkslategray;
+    }
+  }
+}
+
+.resultTitle {
+  color: slategray;
+  font-size: 1rem;
+}

@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+  height: 3rem;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid lightgrey;
+
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.searchbutton {
+  border: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white;
+  background-color: orangered;
+
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+
+  &:hover {
+    cursor: pointer;
+    background-color: orange;
+  }
+}

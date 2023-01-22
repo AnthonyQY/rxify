@@ -1,0 +1,20 @@
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem;
+}
+
+.drug__name {
+  margin: 0;
+}
+
+.drug__rxcui {
+  margin: 0;
+  color: gray;
+}
+
+.drug__interactions {
+  margin: 0;
+}
